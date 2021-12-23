@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Home - Diego Vazquez</title>
+</head>
+
+<body>
+
+    <header>
+        <p>Diego Vazquez</p>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="pages/sobre-mi.html">Sobre mi</a></li>
+                <li><a href="pages/servicios.html">Servicios</a></li>
+                <li><a href="pages/proyectos.html">Proyectos</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portada">
+            <div class="texto">
+                <h1>Hola, soy Diego<br><span class="esp">Especialista en Negocios Digitales</span></h1>
+            </div>
+            <div class="retrato">
+                <img src="img/retratod.png" alt="foto de diego">
+            </div>
+        </section>
+
+        <!-- Inicio de sección Sobre mi -->
+        <section class="sobremi">
+            <article class="sobremi">
+                <div class="retrato2">
+                    <img src="img/retratod.png" alt="Foto de Diego"></div>
+                <div class="textsobremi">
+                    <h2>Sobre mi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi similique esse autem cum suscipit
+                        fugiat temporibus aut, voluptates sunt excepturi minus eos perspiciatis magni perferendis illum?
+                        Debitis nulla assumenda omnis.</p>
+                    <a class="boton" href="pages/sobre-mi.html">Conocer más</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Inicio de sección Servicios -->
+        <section class="servicios">
+            <h2>Servicios</h2>
+            <article class="gridServicios">
+                <div class="disweb">
+                    <img src="https://img.icons8.com/nolan/64/web.png" alt="icono diseño web">
+                    <h3>Diseño web</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="pages/servicios.html">Ver más</a>
+                </div>
+                <div class="publicidad">
+                    <img src="https://img.icons8.com/nolan/64/commercial.png" alt="Icono Publicidad Online">
+                    <h3>Publicidad online</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="pages/servicios.html">Ver más</a>
+                </div>
+                <div class="seo">
+                    <img src="https://img.icons8.com/nolan/64/bullish.png" alt="icono SEO">
+                    <h3>SEO</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="pages/servicios.html">Ver más</a>
+                </div>
+                <div class="branding">
+                    <img src="https://img.icons8.com/nolan/64/mac-client.png" alt="Branding digital">
+                    <h3>Branding digital</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="pages/servicios.html">Ver más</a>
+                </div>
+                <div class="foto">
+                    <img src="https://img.icons8.com/nolan/64/google-images.png" alt="Fotografia de producto">
+                    <h3>Fotografía</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="pages/servicios.html">Ver más</a>
+                </div>
+                <div class="consultoria">
+                    <img src="https://img.icons8.com/nolan/64/consultation.png" alt="Consultoría digital">
+                    <h3>Consultoría digital</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a class="boton" href="pages/servicios.html">Ver más</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Inicio de sección Proyectos -->
+        <section class="proyectos">
+            <h2>Proyectos</h2>
+            <div class="gridProyectos">
+                <div class="webBelen"></div>
+                <div class="webAguero"></div>
+                <div class="webWarhol"></div>
+                <div class="webBv"></div>
+                <div class="webBrb"></div>
+            </div>
+        </section>
+
+        <!-- Inicio de sección Testimonios -->
+        <section class="secTestimonios">
+            <h2>Testimonios de clientes</h2>
+            <article class="testimonios">
+                <div class="testimonioItem">
+                    <img src="img/logo-aguero.png" alt="logo aguero">
+                    <p><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</em></p>
+                </div>
+                <div class="testimonioItem">
+                    <img src="img/logo-brb.png" alt="logo brb">
+                    <p><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</em></p>
+                </div>
+                <div class="testimonioItem">
+                    <img src="img/logo-belen.png" alt="logo warhol">
+                    <p><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</em></p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Inicio de sección Contacto -->
+        <section class="secContacto">
+            <h2>Contacto</h2>
+            <div class="contacto">
+                <div class="divLeft">
+                    <form action="enviar.php" method:"post" enctype="application/x-www-form-urlencoded"></form>
+                    <label for="casilla1">Nombre y apellido</label>
+                    <input type="text"><br>
+                    <label for="casilla2">Teléfono</label>
+                    <input type="text" required placeholder="Cód. área + teléfono"><br>
+                    <label for="casilla3">Email</label>
+                    <input type="email" placeholder="email@gmail.com"><br>
+                    <label for=""></label>
+                    <p>Servicio que te interesa</p>
+                    <select name="servicios">
+                        <option>Diseño web</option>
+                        <option>Publicidad online</option>
+                        <option>SEO</option>
+                        <option>Branding digital</option>
+                        <option>Fotografia de producto</option>
+                        <option>Consultoría digital</option>
+                    </select><br>
+                    <textarea name="areadetexto" id="" cols="30" rows="5"
+                        placeholder="Escribí tu mensaje"></textarea><br>
+                    Acepto los terminos<input type="checkbox" required><br>
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Inicio de Footer -->
+    <footer class="secFooter">
+        <div class="fooLogo">
+            <p>Diego Vazquez</p>
+        </div>
+        <div class="fooServicios">
+            <h4>Servicios</h4>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="pages/sobre-mi.html">Sobre mí</a></li>
+                <li><a href="pages/servicios.html">Servicios</a></li>
+                <li><a href="pages/proyectos.html">Proyectos</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="fooContacto">
+            <h4>Contacto</h4>
+            <ul>
+                <li>Whatsapp: 11 5642-0780</li>
+                <li>Email: diegovazquez.ar1@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
