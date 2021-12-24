@@ -143,7 +143,7 @@ nav ul li {
 }
 
 .servicios {
-    background-color:#fafa66;
+    background-image: linear-gradient(180deg, rgba(250,250,102,1) 0%, rgba(75,29,75,1) 100%);
     width: 100%;
     height: auto;
     text-align: center;
